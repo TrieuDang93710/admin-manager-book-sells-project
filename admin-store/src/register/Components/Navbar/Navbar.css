@@ -1,0 +1,90 @@
+
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0 1px 3px -2px black;
+    
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transform: scale(0.5);
+    
+    
+}
+.nav-logo p{
+    color: #171717;
+    font-size: 38px;
+    font-weight: 600;
+    
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: #626262;
+    font-size: 50px;
+    font-weight: 500;
+    
+}
+.nav-menu li:hover {
+    transform: scale(1.1); /* To lên 10% khi hover */
+  }
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #FF4141;
+}
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.cart{
+    transform: scale(0.25);
+}
+
+.nav-login-cart button{
+    width: 247px;
+    height: 88px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 40px;
+    font-weight: 500;
+    background-color: white;
+    cursor: pointer;
+}
+.nav-login-cart button:active{
+    background: #f3f3f3;
+}
+.nav-cart-count{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -75px;
+    margin-left: -215px;
+    border-radius: 15px;
+    font-size: 17px;
+    background: red;
+    color: white;
+    gap: -10px;
+
+}

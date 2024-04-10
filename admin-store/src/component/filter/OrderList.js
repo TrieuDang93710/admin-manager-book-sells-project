@@ -1,0 +1,32 @@
+export const orderList = [
+  {
+    id: 1,
+    staffId: 1,
+    customerId: 1,
+    productId: 2,
+    quantity: 100,
+    price: 50000,
+    status: "Đang vận chuyển",
+    createAt: "15/01/2024",
+  },
+  {
+    id: 2,
+    staffId: 1,
+    customerId: 1,
+    productId: 1,
+    quantity: 100,
+    price: 20000,
+    status: "Chờ duyệt",
+    createAt: "15/01/2024",
+  },
+  {
+    id: 3,
+    staffId: 1,
+    customerId: 1,
+    productId: 2,
+    quantity: 60,
+    price: 100000,
+    status: "Đã hũy",
+    createAt: "10/01/2024",
+  },
+];
